@@ -2,8 +2,16 @@ public class IfDemo {
 
     public static void main(String[] args) {
 
-        if (3 < 4) ;
-        System.out.println("Das ist korrekt");
+        int age = 17;
+        age = age + 1;
+        if (age > 17) {
+            System.out.println("Dann darfst du das Computerspiel ab 18 jahren kaufen!");
+
+        }
 
     }
 }
+
+
+
+
