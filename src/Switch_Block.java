@@ -1,18 +1,18 @@
 public class Switch_Block {
     public static void main(String[] args) {
-        int month = 5;
+        String month = "Februar";
         switch (month) {
 
-            case 1:
+            case "Januar":
                 System.out.println("Januar");
                 break;
-            case 2:
+            case "Februar":
                 System.out.println("Februar");
                 break;
-            case 3:
+            case "Marz":
                 System.out.println("Marz");
                 break;
-            case 4:
+            case "April":
                 System.out.println("April");
                 break;
             default:
