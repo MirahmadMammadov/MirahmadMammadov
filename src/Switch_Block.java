@@ -1,6 +1,6 @@
 public class Switch_Block {
     public static void main(String[] args) {
-        int month = 2;
+        int month = 5;
         switch (month) {
 
             case 1:
@@ -15,6 +15,11 @@ public class Switch_Block {
             case 4:
                 System.out.println("April");
                 break;
+            default:
+                System.out.println("Andere Monat");
+                break;
+
+
 
 
         }
