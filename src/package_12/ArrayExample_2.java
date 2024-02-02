@@ -2,7 +2,7 @@ package package_12;
 
 import java.util.Arrays;
 
-public class arrayexample_2 {
+public class ArrayExample_2 {
     public static void main(String[] args) {
         int[] oldArray = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120};
         System.out.println((Arrays.toString(oldArray)));

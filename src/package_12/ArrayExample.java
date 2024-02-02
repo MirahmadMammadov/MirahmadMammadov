@@ -2,7 +2,7 @@ package package_12;
 
 import java.util.Arrays;
 
-public class arrayexample {
+public class ArrayExample {
     public static void main(String[] args) {
         int[] array = new int[3];
         array[0] = 6;
