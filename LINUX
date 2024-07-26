@@ -1,0 +1,26 @@
+mkdir: can't create directory '/home': File exists
+localhost:~# sudo mkdir /home
+mkdir: can't create directory '/home': File exists
+localhost:~# rm -r /home/animals
+localhost:~# mkdir /home/animals
+localhost:~# mkdir /home/animals/cats
+localhost:~# mkdir /home/animals/dog
+localhost:~# mkdir /home/animals/fish
+localhost:~# touch /home/animals/dog/pluto
+localhost:~# touch /home/animals/cats/garfield
+localhost:~# touch /tmp/adam
+localhost:~# mkdir -p ~/human
+localhost:~# cp /tmp/adam ~/human/
+localhost:~# mkdir -p /opt/eve
+localhost:~# mv /tmp/evA /opt/eve/
+mv: can't rename '/tmp/evA': No such file or directory
+localhost:~# Is /tmp/evA
+sh: Is: not found
+localhost:~# mkdir -p /opt/eve
+localhost:~# rm -r ~/opt/eve
+rm: can't remove '/root/opt/eve': No such file or directory
+localhost:~# touch /tmp/evA
+localhost:~# mkdir -p /opt/eve
+localhost:~# mv /tmp/evA /opt/eve/eve
+localhost:~# mv /opt/eve/eve /human/
+mv: can't rename '/opt/eve/eve': Not a directory
