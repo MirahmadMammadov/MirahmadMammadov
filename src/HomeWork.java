@@ -5,7 +5,7 @@ public class HomeWork {
     // Например: в зуум сейчас присутствуют 10 участников. Первый участник - это преподаватель. Выбор должен быть сделан из 9 последующих
     //, т.е. число выбирается из диапазона 2-10.
     public static void main(String[] args) {
-        int students = 10;
+        int students = 50;
         //  getStudent(students);
         System.out.println(getStudent(students));
     }
@@ -13,7 +13,7 @@ public class HomeWork {
 
         public static int getStudent (int students){
         Random rand = new Random();
-        return rand.nextInt(2, students + 1);
+        return rand.nextInt(1, students + 1);
 
 
     }
